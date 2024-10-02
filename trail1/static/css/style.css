@@ -1,0 +1,104 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("/static/images/background.jpg"); /* Background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Section styling */
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Form styling */
+form {
+    margin-top: 10px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    color: #666;
+}
+
+form input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Input feedback styles */
+.input-feedback {
+    color: red;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Button styling */
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

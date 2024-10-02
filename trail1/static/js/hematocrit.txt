@@ -1,0 +1,10 @@
+hematocrit
+neutrophils
+sodium
+glucose
+bloodureanitro
+creatinine
+bmi
+pulse
+respiration
+lengthofstay

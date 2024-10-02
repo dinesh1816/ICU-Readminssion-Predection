@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Project Web App</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ICU Readmission Analysis Tool</h1>
+    </header>
+    <main>
+        <section id="data-input">
+            <h2>Content Levels in Blood</h2>
+            <form id="input-form">
+                <div class="form-group">
+                    <label for="hematocrit">Hematocrit:</label>
+                    <input type="number" id="hematocrit" name="hematocrit" required>
+                    <span id="hematocrit-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="neutrophils">Neutrophils:</label>
+                    <input type="number" id="neutrophils" name="neutrophils" required>
+                    <span id="neutrophils-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="sodium">Sodium:</label>
+                    <input type="number" id="sodium" name="sodium" required>
+                    <span id="sodium-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="glucose">Glucose:</label>
+                    <input type="number" id="glucose" name="glucose" required>
+                    <span id="glucose-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="bloodureanitro">Blood Urea Nitro:</label>
+                    <input type="number" id="bloodureanitro" name="bloodureanitro" required>
+                    <span id="bloodureanitro-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="creatinine">Creatinine:</label>
+                    <input type="number" id="creatinine" name="creatinine" required>
+                    <span id="creatinine-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="bmi">BMI:</label>
+                    <input type="number" id="bmi" name="bmi" required>
+                    <span id="bmi-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="pulse">Pulse:</label>
+                    <input type="number" id="pulse" name="pulse" required>
+                    <span id="pulse-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="respiration">Respiration:</label>
+                    <input type="number" id="respiration" name="respiration" required>
+                    <span id="respiration-level" class="input-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <label for="lengthofstay">Length of Stay:</label>
+                    <input type="number" id="lengthofstay" name="lengthofstay" required>
+                    <span id="lengthofstay-level" class="input-feedback"></span>
+
+                </div>
+                <button type="submit">Submit Data</button>
+            </form>
+        </section>
+        <section id="predictions">
+            <h2>Predictions</h2>
+            <div id="prediction-result">Results will appear here after submission.</div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Your Name</p>
+    </footer>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
