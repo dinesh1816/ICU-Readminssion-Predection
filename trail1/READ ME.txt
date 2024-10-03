@@ -1,0 +1,105 @@
+ICU Readmission Analysis Tool
+Overview
+
+The ICU Readmission Analysis Tool is an advanced web-based application designed to support healthcare professionals by providing predictions on ICU readmission risks. The application processes various clinical parameters through a predictive model to offer insights that could influence patient treatment plans and improve care outcomes.
+Key Features
+
+1) Comprehensive Data Entry: Users can input multiple clinical indicators such as Hematocrit, Neutrophils, Sodium, Glucose, and more to ensure a detailed analysis.
+2) Advanced Predictive Analytics: Leveraging Python for backend calculations, the application employs sophisticated machine learning models to predict the likelihood of a patient's readmission to the ICU.
+3) Real-Time Results: Predictions are displayed promptly on the user interface, allowing for immediate interpretation and decision-making.
+4) Responsive Web Design: The tool is fully responsive and functional across various devices, ensuring accessibility for all users in different settings.
+
+Technologies Used
+
+    Frontend: HTML5, CSS3, JavaScript for building a dynamic and responsive user interface.
+    Backend: Python, potentially using Flask as a micro web framework to handle requests and serve predictions.
+    Data Science: Utilization of scikit-learn for implementing machine learning algorithms that analyze clinical data.
+    Styling: CSS is managed to provide a clean and accessible interface, enhancing usability.
+
+Installation Guide
+Prerequisites
+
+    Python 3.8 or higher
+    Pip for Python package management
+    Modern web browser (Chrome, Firefox, Safari, Edge)
+
+
+Install the required Python libraries:
+
+    pip install -r requirements.txt
+
+Running the Application
+
+Setup:
+
+Before running the application, ensure that you have Python installed and that all necessary Python packages are installed:
+
+    Navigate to the project directory.
+    Activate the virtual environment:
+
+	Project Path \venv\Scripts\activate
+
+Install the required dependencies:
+
+    pip install -r requirements.txt
+
+Running the Server
+
+To start the Flask server:
+
+    Run the following command in the command line:
+
+python "Project Path \AI Project\AI PROJECT FINAL\trail 1\app.py"
+
+Once the server is running, open a web browser and go to:
+
+
+    http://127.0.0.1:5000
+
+Using the Application
+
+    Open the specified address in your browser to interact with the application.
+    Enter the necessary health metrics into the provided form fields.
+    Submit the form to see the prediction of ICU readmission risks based on the input data.
+
+Notes
+
+    The Flask application runs in debug mode, which is suitable for development as it provides detailed error messages and automatically reloads your app 	when changes are made.
+    Remember, the Flask development server is intended only for development. It is not recommended for use in a production environment due to its lack of 	efficiency in handling multiple users or heavy loads.
+
+
+Author and Acknowledgments
+
+    • Sai DineshChandra Devisetti:
+	– Masters project timelines and task allocation, ensuring deadlines are met.
+	– Excels in complex algorithmic coding, maximizing
+	model performance.
+	– Synchronizes team collaboration, leading meetings, and troubleshooting code.
+	– Oversees the technical direction, aligning code development with project goals.
+	– Fosters an agile development environment, adapting to changes swiftly.
+   • Gowtham Kilaru:
+	– Guarantees data accuracy and conducts thorough data cleansing operations.
+	– Innovates in feature extraction, translating domain knowledge into model improvements.
+	– Optimizes preprocessing techniques to enhance input data quality.
+	– Evaluates preprocessing impacts, adjusting strategies to data insights.
+	– Pilots new data exploration tools, keeping the team at the forefront of data trends.
+   • Chandana Dagumati:
+	– Crafts robust predictive models by strategically selecting algorithms and meticulously optimizing hyperparameters for peak performance and 	generalizability.
+	– Implements validation frameworks, ensuring precision and preventing model overfit.
+	– Critically analyzes model outputs, iteratively refining performance.
+	– Balances model complexity with computational efficiency for scalable solutions.
+	– Encourages best practices in model development, setting a high standard for quality.
+   • Lahari Doddapaneni:
+	– Conducts extensive literature reviews, anchoring the project in cutting-edge research.
+	– Distills complex research into actionable strategies, guiding project direction.
+	– Crafts comprehensive reports, presenting methodologies and findings with clarity.
+	– Ensures documentation meets stakeholder and regulatory standards.
+	– Leads knowledge dissemination, preparing materials for presentations and publications.
+    
+
+
+	Thanks to the healthcare professionals who provided insights into the key metrics for ICU readmission.
+
+Contact Information
+
+For further inquiries or support, please contact sdevisetti@islander.tamucc.edu.
